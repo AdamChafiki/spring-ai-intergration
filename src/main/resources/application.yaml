@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: aiknowledge
+
+  ai:
+    google:
+      genai:
+        api-key: {GEMINI_API_KEY}
+        chat:
+          model: gemini-3.8-flash
